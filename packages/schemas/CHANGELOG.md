@@ -1,5 +1,15 @@
 # Change Log
 
+## 1.45.1
+
+### Patch Changes
+
+- Updated dependencies [9193c59]
+- Updated dependencies [664e6ac]
+- Updated dependencies [05678f9]
+  - @logto/core-kit@2.14.0
+  - @logto/connector-kit@5.2.0
+
 ## 1.45.0
 
 ## 1.44.0

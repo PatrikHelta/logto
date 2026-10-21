@@ -1,5 +1,20 @@
 # Change Log
 
+## 1.45.1
+
+### Patch Changes
+
+- ae8412d: warn once when a `/console` request reaches the default tenant because the request origin does not match any configured admin endpoint, asking operators to check the Console URL and `ADMIN_ENDPOINT`
+- 1b4aee2: reject account API reads that need recent authentication from third-party applications
+
+  Reading backup codes, sessions, grants, and trusted devices now requires a first-party application, matching the first-party only policy that the account mutations already enforce.
+
+- Updated dependencies [9193c59]
+- Updated dependencies [664e6ac]
+- Updated dependencies [05678f9]
+  - @logto/core-kit@2.14.0
+  - @logto/connector-kit@5.2.0
+
 ## 1.45.0
 
 ### Minor Changes
